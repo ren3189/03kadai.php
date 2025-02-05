@@ -73,7 +73,6 @@ echo "\n";
 動作しない
 */
 
-/*　課題　*/
 $name = "Ren";
 if($name = "Ren"){
     echo "「私は $name です」";
