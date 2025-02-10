@@ -1,14 +1,14 @@
 <?php
 $name = "Ren";
-if($name = "Ren"){
+if($name == "Ren"){
     echo "「私は $name です」";
 } else {
     echo "「 $name ではありません」";
 }
 echo "\n";
 
-$total = 0;
-for ($i = 0; $i <= 10000; $i++) {
+$total = 1;
+for ($i = 1; $i <= 10000; $i++) {
     $total += $i;
 }
 echo $total;
